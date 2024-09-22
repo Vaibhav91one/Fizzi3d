@@ -14,7 +14,7 @@ export function TextSplitter({
   if (!text) return null;
 
   const words = text.split(" ");
-
+  console.log(words)
   return words.map((word: string, wordIndex: number) => {
     const splitText = word.split("");
     return (

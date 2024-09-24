@@ -39,7 +39,8 @@ const Scene = (props: Props) => {
       !can4Ref.current ||
       !can5Ref.current ||
       !can1GroupRef.current ||
-      !can2GroupRef.current
+      !can2GroupRef.current || 
+      !groupRef.current
     ) return;
 
     isReady()

@@ -93,7 +93,7 @@ const Carousel = ({ slice }: CarouselProps): JSX.Element => {
         {/* Can */}
         <View className="aspect-square h-[70vmin] min-h-40">
           <Center position={[0, 0, 1.5]}>
-            <FloatingCan ref={sodaCanRef} floatIntensity={.3} rotationIntesity={1} flavor={FLAVORS[currentFlavorIndex].flavor} />
+            <FloatingCan ref={sodaCanRef} floatIntensity={.3} rotationIntensity={1} flavor={FLAVORS[currentFlavorIndex].flavor} />
           </Center>
           <Environment files="/hdr/lobby.hdr"
             environmentIntensity={.6}
